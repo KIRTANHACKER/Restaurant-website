@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+/* navigation bar of web site and other options with css editing  */
+
+.logo {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.fixed {
+  width: 100%;
+  height: 100vh;
+ 
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  border: px solid white;
+  display: flex;
+  width: 95%;
+  align-items: center;
+  margin: auto;
+  padding: 10px auto;
+  justify-content: space-between;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: yellow;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+ul li:hover::after {
+  width: 100%;
+}
+table {
+  border: px solid;
+  border-spacing: 40px;
+
+}
+
+td {
+  width: 80px;
+  height: 250px;
+  background: linear-gradient(rgba(75, 75, 75, 0.648),rgba(0, 0, 0, 0.223),rgba(75, 75, 75, 0.532));
+  border-radius: 1cm;
+}
+
+p {
+  color: rgb(255, 255, 255);
+}
+.food {
+  border-radius: 1cm;
+}
+.img1{
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.75)),
+    url(background.webp);
+    height: 120vh;
+  
+}
+.img2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.70)),
+    url(background2.webp);
+    height: 130vh;
+   
+  
+}
